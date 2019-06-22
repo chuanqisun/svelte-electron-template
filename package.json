@@ -1,0 +1,31 @@
+{
+  "name": "template-svelte-electron",
+  "version": "0.0.1",
+  "description": "The bare minimum boilerplate to use svelte in electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "run-p start:electron build:watch",
+    "start:electron": "electron .",
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w"
+  },
+  "repository": "https://github.com/chuanqisun/template-svelte-electron",
+  "keywords": [
+    "svelte",
+    "electron",
+    "boilerplate",
+    "template"
+  ],
+  "author": "Chuanqi Sun",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^5.0.4",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^1.15.5",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.4",
+    "rollup-plugin-svelte": "^5.1.0",
+    "rollup-plugin-terser": "^5.0.0",
+    "svelte": "^3.5.1"
+  }
+}
