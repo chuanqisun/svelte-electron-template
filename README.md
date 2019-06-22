@@ -8,7 +8,7 @@ The bare minimum boilerplate to use svelte in electron
 
 `npm start` to build, bundle, and watch the svelte app, then load it as renderer thread in an electon app.
 
-## Import modules meant for **browser**.
+## Import modules for **browser**.
 
 Use ES6 `import`. The modules will be bundled.
 
@@ -21,7 +21,7 @@ import { myUtilFunc } from './MyUtilFunc';
 import { writable } from 'svelte/store';
 ```
 
-## Import modules meant for **node**.
+## Import modules for **node**.
 
 Use CommonJS `require()`. The modules will NOT be bundled. The import will be resolved at runtime.
 
