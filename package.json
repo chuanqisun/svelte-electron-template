@@ -1,5 +1,5 @@
 {
-  "name": "template-svelte-electron",
+  "name": "svelte-electron-template",
   "version": "0.0.1",
   "description": "The bare minimum boilerplate to use svelte in electron",
   "main": "main.js",
@@ -9,7 +9,7 @@
     "build": "rollup -c",
     "build:watch": "rollup -c -w"
   },
-  "repository": "https://github.com/chuanqisun/template-svelte-electron",
+  "repository": "https://github.com/chuanqisun/svelte-electron-template",
   "keywords": [
     "svelte",
     "electron",

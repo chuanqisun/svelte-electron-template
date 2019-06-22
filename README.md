@@ -1,6 +1,8 @@
-# svelte-electron-starter
+# Svelte Electron Template
 
 The bare minimum boilerplate to use svelte in electron
+
+![screenshot](screenshot.png)
 
 ## Quick start
 
