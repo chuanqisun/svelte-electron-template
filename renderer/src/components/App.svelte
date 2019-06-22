@@ -21,7 +21,7 @@
 </style>
 
 <main>
-  <img src="dist/assets/svelte-logo.svg" alt="svelte logo" />
+  <img src="renderer/dist/assets/svelte-logo.svg" alt="svelte logo" />
   <h1>{$demoStore}</h1>
   <ul>
     <li>We are using node {process.versions.node}</li>
